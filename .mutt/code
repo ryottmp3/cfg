@@ -1,0 +1,20 @@
+## Receive options.
+set imap_user=code@ryott.gay
+set imap_pass="`pass show email/ryott.gay/code`"
+set folder = ~/mail/code
+set spoolfile = +INBOX
+set postponed = +Drafts
+set record = +Sent
+
+## Send options.
+set smtp_url=smtps://code@ryott.gay@server343.web-hosting.com
+set smtp_pass="`pass show email/ryott.gay/code`"
+set realname='H. Ryott Glayzer'
+set from=code@ryott.gay
+set signature=~/.mutt/code.sig
+# Connection options
+set ssl_force_tls = yes
+unset ssl_starttls
+
+## Hook -- IMPORTANT!
+account-hook $folder "set imap_user=code@ryott.gay imap_pass='`pass show email/ryott.gay/code`'"
