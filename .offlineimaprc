@@ -1,0 +1,54 @@
+[general]
+accounts = ryott, physics, code
+maxsyncaccounts = 3
+
+[Account ryott]
+localrepository = ryott-local
+remoterepository = ryott-remote
+
+[Repository ryott-local]
+type = Maildir
+localfolders = ~/mail/ryott
+
+[Repository ryott-remote]
+type = IMAP
+remotehost = server343.web-hosting.com
+remoteport = 993
+remoteuser = ryott@ryott.gay
+remotepass = acab1312FTP!
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda folder: folder in ['INBOX']
+
+[Account physics]
+localrepository = physics-local
+remoterepository = physics-remote
+
+[Repository physics-local]
+type = Maildir
+localfolders = ~/mail/physics
+
+[Repository physics-remote]
+type = IMAP
+remotehost = server343.web-hosting.com
+remoteport = 993
+remoteuser = physics@ryott.gay
+remotepass = v^ST-wF)Vg$;
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda folder: folder in ['INBOX']
+
+[Account code]
+localrepository = code-local
+remoterepository = code-remote
+
+[Repository code-local]
+type = Maildir
+localfolders = ~/mail/code
+
+[Repository code-remote]
+type = IMAP
+remotehost = server343.web-hosting.com
+remoteport = 993
+remoteuser = code@ryott.gay
+remotepass = II:p?0eSarG$YmSdQ,9l8O$77
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda folder: folder in ['INBOX']
