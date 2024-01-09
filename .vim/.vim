@@ -1,0 +1,1 @@
+/home/ryott/.cfg/.vim

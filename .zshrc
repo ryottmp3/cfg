@@ -5,7 +5,7 @@ export EDITOR=vim
 export QT_QPA_PLATFORM=wayland
 
 # THEME TO LOAD
-ZSH_THEME="agnosterzak"
+ZSH_THEME="ryott"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="false"
@@ -83,10 +83,10 @@ alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 ### Startup Sequence ###
 
 # This documents all installed packages
-pacman -Qq > ~/public/pacman/paclist
-pacman -Qe > ~/public/pacman/paclist-explicit
-pacman -Qii > ~/public/pacman/paclist-deps
-pacman -Qiie > ~/public/pacman/paclist-explicit-deps
+pacman -Qq > ~/Public/pacman/paclist
+pacman -Qe > ~/Public/pacman/paclist-explicit
+pacman -Qii > ~/Public/pacman/paclist-deps
+pacman -Qiie > ~/Public/pacman/paclist-explicit-deps
 
 # clear terminal
 clear

@@ -1,0 +1,16 @@
+#!/bin/bash
+# This program will create symlinks for dot files
+#
+# Written by H. Ryott Glayzer under the Unlicense
+
+# print pwd
+pwd
+
+echo $HOME
+
+echo "Creating Symbolic Links"
+ln -s $HOME/.cfg/.bashrc $HOME/.bashrc
+ln -s $HOME/.cfg/.zshrc $HOME/.zshrc
+ln -s $HOME/.cfg/.vimrc $HOME/.vimrc
+ln -s $HOME/.cfg/.vim $HOME/.vim
+
