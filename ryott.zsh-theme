@@ -320,7 +320,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment cyan white "%{$fg_bold[white]%}%~%{$fg_no_bold[white]%}"
+  prompt_segment magenta white "%{$fg_bold[white]%}%~%{$fg_no_bold[white]%}"
 }
 
 # Virtualenv: current working virtualenv

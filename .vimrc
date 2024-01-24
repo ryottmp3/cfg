@@ -1,4 +1,4 @@
-" This is a configuration file for the ViM text editor
+
 " written by Ryott Glayzer
 
 
@@ -118,10 +118,16 @@ Plug 'Valloric/YouCompleteMe'
 " Minimap
 Plug 'wfxr/minimap.vim'
 
+" LaTeX
+Plug 'lervag/vimtex'
+
+" Snippets
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
 call plug#end()
 
 
-" }}}
+ " }}}
 "z MAPPINGS ================================================================ {{{
 " Open/Close tagbar
 nmap <F8> :TagbarToggle<CR>
@@ -173,12 +179,19 @@ let g:minimap_auto_start_win_enter = 1
 " autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:minimap') && b:minimap.isTabTree() | quit | endif
 
 " ViMTeX
-let g:vimtex_view_method = 'zathura'
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
+" Snippets
+let g:UltiSnipsExpandTrigger = '<F2>'
+let g:UltiSnipsJumpForwardTrigger = '<F2>'
+let g:UltiSnipsJumpBackwardTrigger = '<S-F2>'
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/snippets']
 
-
-
-" }}}
+" }}} 
 
 " STATUS LINE ============================================================= {{{
 
@@ -186,3 +199,4 @@ let g:vimtex_view_method = 'zathura'
 
 
 " }}}
+

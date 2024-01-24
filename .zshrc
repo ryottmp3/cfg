@@ -49,8 +49,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local
 
 
 # Export paths used for work
-export RN=~/work/radon
-export EMAN=~/work/pythonrnemanationanalysis
+export RN=~/Work/radon
+export EMAN=~/Work/pythonrnemanationanalysis
 
 # sourcefile
 source $ZSH/oh-my-zsh.sh
@@ -64,22 +64,22 @@ alias vimrc="vim ~/.vimrc"
 alias l='ls -lh'
 alias L='ls -lah'
 alias clean='clear; biblesay'
-alias analysis='cd ~/work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
-alias playground='cd ~/projects/playground; pipenv shell; clear; biblesay'
-alias radon='cd ~/work/radon; pipenv shell; clear; biblesay'
+alias analysis='cd ~/Work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
+alias playground='cd ~/Projects/playground; pipenv shell; clear; biblesay'
+alias radon='cd ~/Work/radon; pipenv shell; clear; biblesay'
 alias sshbison='ssh ryottmp3@bison.sdsmt.edu'
-alias pdf='mupdf'
+alias pdf='evince'
 alias ...='nocorrect ...'
 alias pdftex='pdflatex'
 alias qfig='vim ~/.config/qtile/config.py'
 alias scap='cd /home/ryott/videos/screencast; recordmydesktop --fps 4 --v_quality 63 -o "$(date +%F_%H%M%S)" '
 alias monitor='xrandr --output DP-1 --mode 1920x1080 --noprimary'
 alias vimrc='vim ~/.vimrc'
-alias math='cd ~/school/MATH125'
-alias chem='cd ~/school/CHEM112'
-alias lab='cd ~/school/CHEM112L'
+alias math='cd ~/School/MATH125'
+alias chem='cd ~/School/CHEM112'
+alias lab='cd ~/School/CHEM112L'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
+alias net='cd ~/Projects/neural-net; pipenv shell; clear; biblesay'
 ### Startup Sequence ###
 
 # This documents all installed packages
