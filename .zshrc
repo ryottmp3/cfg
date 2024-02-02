@@ -57,29 +57,46 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
-# Aliases
+### ALIASES ###
+# Configuration Aliases
 alias zshrc="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias vimrc="vim ~/.vimrc"
+
+# Qtile-Specific Aliases
+# alias qfig='vim ~/.config/qtile/config.py'
+# alias scap='cd /home/ryott/videos/screencast; recordmydesktop --fps 4 --v_quality 63 -o "$(date +%F_%H%M%S)" '
+# alias monitor='xrandr --output DP-1 --mode 1920x1080 --noprimary'
+
+# Command Aliases
 alias l='ls -lh'
 alias L='ls -lah'
 alias clean='clear; biblesay'
-alias analysis='cd ~/Work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
-alias playground='cd ~/Projects/playground; pipenv shell; clear; biblesay'
-alias radon='cd ~/Work/radon; pipenv shell; clear; biblesay'
-alias sshbison='ssh ryottmp3@bison.sdsmt.edu'
 alias pdf='evince'
 alias ...='nocorrect ...'
 alias pdftex='pdflatex'
-alias qfig='vim ~/.config/qtile/config.py'
-alias scap='cd /home/ryott/videos/screencast; recordmydesktop --fps 4 --v_quality 63 -o "$(date +%F_%H%M%S)" '
-alias monitor='xrandr --output DP-1 --mode 1920x1080 --noprimary'
-alias vimrc='vim ~/.vimrc'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cup='rm *.log *.aux'
+
+# Movement Aliases
 alias math='cd ~/School/MATH125'
 alias chem='cd ~/School/CHEM112'
 alias lab='cd ~/School/CHEM112L'
-alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# SSH Aliases
+alias sshbison='ssh ryottmp3@bison.sdsmt.edu'
+alias sshodessa='ssh ryott@odessa.phy.sdsmt.edu'
+alias sshstardust='ssh ryott@2001:48f8:1051:8aa::8157:1316'
+
+# Virtual Environment Aliases
+alias analysis='cd ~/Work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
+alias playground='cd ~/Projects/playground; pipenv shell; clear; biblesay'
+alias radon='cd ~/Work/radon; pipenv shell; clear; biblesay'
+alias wes='cd ~/Work/wes-pressure-data; pipenv shell; clear; biblesay'
+alias bisontools='cd ~/Work/bison-tools; clear; biblesay'
 alias net='cd ~/Projects/neural-net; pipenv shell; clear; biblesay'
+
+
 ### Startup Sequence ###
 
 # This documents all installed packages
@@ -93,3 +110,6 @@ clear
 
 # This sends a dove with a bible verse to stdout
 biblesay
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
