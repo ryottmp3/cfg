@@ -84,10 +84,10 @@ alias chem='cd ~/School/CHEM112'
 alias lab='cd ~/School/CHEM112L'
 
 # SSH Aliases
-alias sshbison='ssh ryottmp3@bison.sdsmt.edu'
-alias sshodessa='ssh ryott@odessa.phy.sdsmt.edu'
-alias sshstardust='ssh ryott@2001:48f8:1051:8aa::8157:1316'
-alias sshwimp='ssh ryott@151.159.35.1'
+alias sshbison='ssh -t -X ryottmp3@bison.sdsmt.edu'
+alias sshodessa='ssh -t ryott@odessa.phy.sdsmt.edu'
+alias sshstardust='ssh -t ryott@2001:48f8:1051:8aa::8157:1316'
+alias sshwimp='ssh -t ryott@151.159.35.1'
 
 # Virtual Environment Aliases
 alias analysis='cd ~/Work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
