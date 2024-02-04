@@ -1,0 +1,176 @@
+Submission Preparation Checklist
+
+
+As part of the submission process, authors are required to check off their 
+submission's compliance with all of the following items, and submissions may 
+be returned to authors that do not adhere to these guidelines:
+
+	- The submission has not been previously published nor it is being 
+			considered for publication on a different journal
+	- The submission file is a PDF document, containing the full text, 
+			author(s) name(s) and affiliation(s), and references.
+	- The authors comply with the journal's Ethical Guidelines.
+	- The manuscript adheres to the stylistic and bibliographic requirements 
+			outlined in the Author Guidelines.
+	- LaTeX (.tex) source files and figures (eventually, other source files 
+			like Word .docx) are also included.
+
+
+
+Author Guidelines
+
+
+Manuscripts submitted to Papers in Physics must contain substantial new results
+and ideas that advance in a non-trivial way our knowledge of physics.
+
+Authors must decide at submission time the editorial treatment that 
+Papers in Physics should give to the manuscript: traditional review or open 
+review. Authors must ensure that any submission has not been previously 
+published, nor is it before another journal for consideration.
+
+Papers in Physics has no page limits. However, very long manuscripts are 
+susceptible of higher publishing costs (see APC).  Authors are encouraged to 
+publish supplementary material at no extra cost.
+
+Papers in Physics has a copyleft policy. Authors must agree to let the article 
+in the public domain (CC BY 4.0 license). Authors must comply with the journal 
+ethical guidelines.
+
+
+
+EDITORIAL TREATMENTS
+
+
+Traditional review
+
+In traditional review, manuscripts are submitted to anonymous reviewers seeking 
+constructive criticism and editors make a decision as to whether publication 
+is appropriate.
+
+Open review
+
+In open review, manuscripts are sent to reviewers who agree to unveil their 
+identity. If the paper is considered suitable for publication, the names of all
+involved will be published in the article information.  The the reviewer's 
+comments and the author's replies may be also published together with the main 
+article when considered valuable for the readers according to the editor in 
+charge of the manuscript. In this way, Papers in Physics promotes open 
+discussions of controversies among specialists that are of help to the reader 
+and to the transparency of the editorial process. Moreover, reviewers receive 
+their due recognition by publishing a recorded citable report.
+
+
+
+MANUSCRIPT PREPARATION
+
+
+Please, use the LaTeX class and template provided to prepare your manuscript.
+Microsoft Word, OpenOffice and other formats may be processed. However, note 
+that in this case extra cost associated with formatting will be charged to the 
+author prior to  publication (see APC).
+
+Language: Manuscripts must be written in English following American spelling.
+
+Title: It must be informative and brief.
+
+Authors: Use full given names or capital initials followed by periods. Family 
+	name must be written in full. Separate authors' names by commas only.
+
+Address: Provide postal address for each author. Use Arabic superscripts to 
+	link authors to addresses.
+
+Abstract: Aim at less than 500 words. Clearly indicate the system under 
+	consideration, the properties studied, the methods used and the main 
+	conclusions drawn in the paper.
+
+Text: Separate the text in sections beginning by "Introduction" and ending 
+	with "Conclusions".
+
+Figures: Use PostScript, PDF or EPS format for images. The use of color is 
+	encouraged. Introduce appropriate captions for each figure.
+
+Tables: Avoid introducing large tables; these can be submitted as 
+	Supplementary Material.
+
+Equations: Equations must be numbered sequentially.
+
+Acknowledgements: Acknowledgements to individuals and institutions must be 
+	given just before the first Appendix or the References.
+
+Appendices: Introduce as appendix any detailed material that may divert 
+	attention to the main subject in the text.
+
+References: Citations must appear numbered sequentially and in squared brackets,
+	e.g. [2] in the text. The list of references should be placed at the end of
+	the manuscript and contain complete information about the cited items.
+
+
+
+Supplementary material
+
+
+Papers in Physics encourages authors to submit supplementary material for the 
+benefit of reviewers and readers. These may include images, videos, lengthy 
+tables, source codes, lengthy details of experiments, calculations or protocols, 
+etc. Supplementary material is subjected to the same licensing as the manuscript 
+if published.
+
+ONLINE SUBMISSION
+
+	- Prepare a PDF version of your article to submit for reviewing. This file 
+			must contain the full text, references, figures, tables, and any 
+			other material intended to be part of the final published article.
+	- Prepare the LaTeX sorces and figures (packed in a single .zip or .tar.gz 
+			file) and any other supplementary material, to be uploaded as 
+			"supplementary files". Microsoft Word, OpenOffice, and other 
+			formats may be processed, but notice that the costs of format 
+			conversion will be charged to the authors.
+	- Detail in your cover letter the contribution made by each author of the 
+			manuscript. This is important to help the Editors in overseeing 
+			compliance with the journal ethical guidelines.
+	- Include in your cover letter a list of colleagues that you believe are 
+			suitable as reviewers of your manuscript. Please, include as many 
+			as possible and provide: full names, affiliations and 
+			email addresses.
+	- When entering title and abstract in the submission process use LaTeX 
+			commands for special symbols and formulas, e.g., √2.
+
+
+
+Sample of cover letter
+
+
+	Dear Editor,
+
+	Please, consider the following when handling this submission.
+
+	Contributions:
+	Authors A and B designed and performed the experiment, Author C developed 
+	the theoretical calculations, Author D performed the statistical analysis, 
+	all authors contributted equaly to the preparation of the manuscript.
+
+	Suitable reviewers:
+	Dr. Andrew Smith, University of Physics (Amsterdam, The Netherlands), 
+		aasmith@uop.edu.nl
+	Prof. Bry Chan, Physics Institute (Colorado, USA), bbchan@picol.edu
+
+
+
+POST EDITION
+
+
+After acceptance, manuscripts are reviewed by our Copyeditors for English and 
+style correctness. A correction marked ("redline") copyedited manuscript is 
+sent to the corresponding author for approval. Later on, proof are processed 
+and authors are invited to reply withing 48 hours (only typo corrections are 
+accepted upon proofs).
+
+
+
+Copyright Notice
+Authors agree to the PIP Copyleft Notice
+
+Privacy Statement
+The names and email addresses entered in this journal site will be used 
+exclusively for the stated purposes of this journal and will not be made 
+available for any other purpose or to any other party.
