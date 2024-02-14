@@ -8,9 +8,34 @@ pwd
 
 echo $HOME
 
+
+echo "Removing old files. This may caeso data loss."
+echo "Are you sure you want to proceed? [y/n]"
+read choice
+
+if [$choice == "y"]; then
+do 
+	rm $HOME/.zshrc
+	rm $HOME/.bashrc
+	rm $HOME/.vimrc
+	rm -rf $HOME/.vim
+	rm -rf $HOME/.config/kitty
+	rm -rf $HOME/Templates
+	rm -rf $HOME/Public
+done
+elif [ $choice == "n" ]; then
+do
+	exit 1
+done
+	
+fi
+
+
 echo "Creating Symbolic Links"
 ln -s $HOME/.cfg/.bashrc $HOME/.bashrc
 ln -s $HOME/.cfg/.zshrc $HOME/.zshrc
 ln -s $HOME/.cfg/.vimrc $HOME/.vimrc
 ln -s $HOME/.cfg/.vim $HOME/.vim
-
+ln -s $HOME/.cfg/kitty $HOME/.config/kitty
+ln -s $HOME/.cfg/public $HOME/Public
+ln -s $HOME/.cfg/templates $HOME/Templates

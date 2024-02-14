@@ -47,6 +47,9 @@ plugins=(colored-man-pages command-not-found dirhistory git lol)
 ### PATHS ###
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/sbin:/sbin:/home/ryott/.config/scripts:/usr/lib/surfraw:/usr/bin/links"
 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # Export paths used for work
 export RN=~/Work/radon
@@ -56,6 +59,9 @@ export EMAN=~/Work/pythonrnemanationanalysis
 source $ZSH/oh-my-zsh.sh
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
+
+# Unset the annoying AUTO CD feature
+unsetopt auto_cd
 
 ### ALIASES ###
 # Configuration Aliases
@@ -112,6 +118,6 @@ clear
 
 # This sends a dove with a bible verse to stdout
 biblesay
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+
+# Codon compiler path (added by install script)
+export PATH=/home/ryott/.codon/bin:$PATH
