@@ -93,8 +93,8 @@ alias lab='cd ~/School/CHEM112L'
 alias sshbison='ssh -t -X ryottmp3@bison.sdsmt.edu'
 alias sshodessa='ssh -t ryott@odessa.phy.sdsmt.edu'
 alias sshstardust='ssh -t ryott@2001:48f8:1051:8aa::8157:1316'
-alias sshwimp='waypipe ssh -t ryott@151.159.154.2'
-alias wimp='151.159.35.1'
+alias sshwimp='waypipe ssh -t ryott@wimp.ryott.gay'
+alias wimp='151.159.154.2'
 
 # Virtual Environment Aliases
 alias analysis='cd ~/Work/pythonrnemanationanalysis; clear; pipenv shell; biblesay'
