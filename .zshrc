@@ -75,8 +75,8 @@ alias vimrc="vim ~/.vimrc"
 # alias monitor='xrandr --output DP-1 --mode 1920x1080 --noprimary'
 
 # Command Aliases
-alias l='ls -lh'
-alias L='ls -lah'
+# alias l='ls -lh'
+# alias L='ls -lah'
 alias clean='clear; biblesay'
 alias pdf='evince'
 alias ...='nocorrect ...'
