@@ -157,6 +157,9 @@ augroup filetype_vim
     hi Folded ctermbg=237
 augroup END
 
+" syntax for asm
+au BufRead,BufNewFile *.asm set filetype=nasm
+
 " Open NERDTree with Vim
 " Start NERDTree and put the cursor back in the other window.
 " autocmd VimEnter * NERDTree | wincmd p
