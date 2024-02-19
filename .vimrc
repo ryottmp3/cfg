@@ -2,8 +2,7 @@
 " written by Ryott Glayzer
 
 
-" SETTINGS ====================================================================
-
+" SETTINGS ================================================================ {{{
 
 " Disable compatibility with vi which can cause unexpected issues
 set nocompatible
@@ -80,6 +79,8 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
+
+" }}}
 " PLUGINS ================================================================= {{{
 call plug#begin()
 " Polyglot, language support for vim
@@ -187,6 +188,17 @@ let g:vimtex_view_method='zathura'
 let g:vimtex_quickfix_mode=0
 set conceallevel=2
 let g:tex_conceal='abdmg'
+" Default compiling format
+let g:Tex_DefaultTargetFormat='pdf'
+
+" Never Forget, To set the default viewer:: Very Important
+let g:Tex_ViewRule_pdf = 'zathura'
+
+function! Synctex()
+        " remove 'silent' for debugging
+        execute "silent !zathura --synctex-forward " . line('.') . ":" . col('.') . ":" . bufname('%') . " " . g:syncpdf
+endfunction
+map <C-enter> :call Synctex()<cr>
 
 " Snippets
 let g:UltiSnipsExpandTrigger = '<F2>'
