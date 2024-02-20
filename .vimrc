@@ -59,6 +59,11 @@ set showmode
 " Set 80 line width
 " set colorcolumn=80
 
+" Spell Checking
+setlocal spell 
+set spelllang=en_us
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
 " Show matching words during a search.
 set showmatch
 
