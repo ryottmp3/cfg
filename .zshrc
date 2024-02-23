@@ -47,6 +47,7 @@ plugins=(colored-man-pages command-not-found dirhistory git lol)
 ### PATHS ###
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/sbin:/usr/sbin:/sbin:/home/ryott/.config/scripts:/usr/lib/surfraw:/usr/bin/links"
 
+export SWAPFILE=/mnt/ssd_1/swapfile
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
